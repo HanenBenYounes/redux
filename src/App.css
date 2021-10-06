@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(188, 221, 188)
+}
+
+.app header{
+    background-color: #cececb;
+    padding: 1rem 2rem;
+    color:rgb(74, 75, 74);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 6px 0 10px rgba(44, 42, 42, 0.4);
+}
+.app > header > div{
+    background-color: rgb(241, 234, 234);
+    padding: 0.5rem 0.75rem;
+    border-radius: 3px;
+}
+.counter{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin: 30px auto;
+}
+button{
+    border:none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 6px rgba(179, 177, 177, 0.2);
+    cursor:pointer;
+    outline:none;
+    
+    transition: all 0.31s;
+
+}
+button:hover{
+    filter: brightness(80%);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
